@@ -1,0 +1,11 @@
+python >= 3.6.10
+python-dateutil >= 2.8.1
+python_abi >= 3.6
+numpy-base >= 1.16.4
+numpy >= 1.16.4
+pandas >= 1.0.1
+tensordlow == 1.9.0
+keras >= 2.3.1 
+keras-applications >= 1.0.8
+keras-base >= 2.3.1   
+keras-preprocessing >= 1.1.0  
