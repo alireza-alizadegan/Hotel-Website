@@ -2,6 +2,7 @@
  Prediction of Hotel Website Clicks using Machine Learning
  
 # Instructions
+The project is done with python 3.7.4 and the `venv` module is used to create virtual environment specific to this project as follows:
 - Download the project folder, place it on the desktop, and rename it to `hotel_website`. 
 - Open the command prompt and change the directory to desktop by typing: `cd Desktop`
 - Create a virtual environment named `venv` inside the project directory: `python –m venv hotel_website\venv`
