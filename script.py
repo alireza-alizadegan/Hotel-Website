@@ -4,6 +4,7 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
 from sklearn.preprocessing import StandardScaler
+from sklearn.externals.joblib import load 
 
 
 # load test data
@@ -12,8 +13,8 @@ test_df = pd.read_csv('test_set.csv')
 # fill test data with median 
 test_df.fillna(test_df.median(), inplace=True)
 
-# scale the data for enhanced accuracy 
-scaler = StandardScaler()
+# scale test data with trained scaler
+scaler = load('scaler.bin')
 test_trans_df = scaler.fit_transform(test_df)
 
 # load model from .pb file and predict clicks
