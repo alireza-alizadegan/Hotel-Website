@@ -7,4 +7,5 @@
 3. Create a virtual environment named `venv` inside the project directory: `python –m venv hotel_website\venv`
 4. Activate the environment by the following command: `python hotel_website\venv\Scripts\activate.bat`
 5. Install the required packages provided in the requirements file: `pip install –r hotel_website\requirements.txt `
-6. Run the `script.py` python script to get a csv file of predictions saved in `hotel_website` folder: `python script.py` 
+6. Open `script.py` in the `hotel_website` and replace my system username (`arali`) with yours at line 18
+7. Run the `script.py` python script to get a csv file of predictions saved in `hotel_website` folder: `python script.py` 
