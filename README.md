@@ -1,5 +1,5 @@
 # Hotel-Website
-Data-driven insights and prediction of number clicks based on hotel factors using advanced machine learning and deep learning techniques
+Data-driven insights and prediction of number clicks based on hotel factors using advanced machine learning and deep learning techniques.
  
 # Instructions
 The project is done with python 3.7.4 and the `venv` module is used to create virtual environment specific to this project as follows:
